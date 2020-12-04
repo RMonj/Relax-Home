@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC Product Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="https://i.imgur.com/ygpmcLGm.png"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">PRODUCTS</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#benefits" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="https://i.imgur.com/2FqWQYW.png" alt="teal salts" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Aromatherapy: Spa Bath Salts & Oils.</h1>
+          <h2>
+            Need some good self care and relaxation time? Bath salts are a sure
+            way to wind down and get good sleep.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Learn more
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum."
+          </p>
+          <img src="https://i.imgur.com/5ZDFGFkl.jpg" alt="Peaceful beach scene" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">PRODUCTS</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="https://i.imgur.com/uWi4V5zm.jpg" alt="bath bomb" />
+            <h4>Bath Bomb</h4>
+            <p>
+              Settle in for a good soak with an invigorating bath bomb
+              perfect for every bathing experience.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="https://i.imgur.com/3Vi46a1m.jpg"
+              alt="lavender oil"
+            />
+            <h4>Lavender Oil</h4>
+            <p>
+              A must-have for calm & relaxation, lavender oil also induces
+              peaceful sleep.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="https://i.imgur.com/XlnynYIm.jpg" alt="citrus rub" />
+            <h4>Citrus Rub</h4>
+            <p>
+              Bright fresh scent, uplifting and stimulating for the senses,
+              reduces tension and stress.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.imgur.com/1ikOdh0.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver fresh apples with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.imgur.com/vhEz53G.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible, delivery procedure
+                begins as soon as apple is plucked from tree.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.imgur.com/i4ue26M.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your purchase experience smooth. But if we mess up somehow you
+                will get compensated for every inconvenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">BENEFITS</h3>
+        <div class="sec-content-div flexible">
+          <iframe
+            id="video"
+            width="560"
+            title="Relaxing Waterfall"
+            height="315"
+            src="https://www.youtube.com/embed/lAas4Lf4U9c"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="" target="_blank">RMONJ Digital</a
+      >
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- partial -->
+
+</body>
+</html>
